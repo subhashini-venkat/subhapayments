@@ -1,0 +1,10 @@
+<p> </p>
+<p class = "text-center"> Please choose from the below payment methods </p>
+<p class = "text-center"> You can find the card numbers <a href = "https://docs.adyen.com/development-resources/test-cards/test-card-numbers" target = "_blank"> here </a> </p>
+
+<div id="paymentMethodsResponse" class="custom-hidden"><%= raw @dropin %></div>
+<div class ="pay-container">
+<div id="dropin-container"></div>
+</div>
+
+<%= javascript_include_tag "/adyenImplementation" %>

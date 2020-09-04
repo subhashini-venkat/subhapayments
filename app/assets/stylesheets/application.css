@@ -1,0 +1,50 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ */
+
+
+
+ .custom-hidden{
+    display: none;
+}
+
+.jumbotron{
+    background-color: #f7f8f9 !important;
+    border: 1px solid #e6e9eb !important;
+}
+
+.container{
+  margin-top: 20px;
+}
+
+.btn-primary{
+    background-color: #212529 !important;
+    border-color: #212529 !important;
+}
+
+.pay-container{
+    max-width: 450px !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+#dropin-container {
+   width: 100%;
+   max-width: 450px;
+ }
+ 
+ @media screen and (max-width: 1076px) {
+   #dropin-container {
+     width: 100%;
+     max-width: 610px;
+   }
+ }
